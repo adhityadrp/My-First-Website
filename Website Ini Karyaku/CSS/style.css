@@ -1,0 +1,199 @@
+/* Navbar */
+.navbar {
+    background-color: rgba(112, 199, 202, 0.322);
+    color: aliceblue;
+}
+
+.navbar-brand {
+    font-family: viga;
+    font-size: 50px;
+}
+
+.nav-link {
+    margin-right: 25px;
+}
+
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+
+}
+
+
+
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(../Images/Background.jpg);
+    background-size: cover;
+    height: 780px;
+
+}
+
+.jumbotron .display-4 {
+    color: black;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 40px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+/* info Panel */
+.panel .judul-panel {
+    margin-top: 200px;
+}
+
+.judul-panel h2 {
+
+    text-align: center;
+    font-family: viga;
+    font-size: 45px;
+}
+
+.info-panel {
+    text-align: left;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    background-color: white;
+    height: 160px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.info-panel h4 {
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.info-panel p {
+    font-size: 10px;
+}
+
+.info-panel img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+/* tentang */
+.footer {
+    margin-top: 200px;
+    padding-top: 50px;
+    background-color: rgba(112, 199, 202, 0.322);
+}
+
+
+.tentang {
+
+    width: 100%;
+
+    padding-bottom: 100px;
+}
+
+.tentang .col-4 h1 {
+    font-weight: lighter;
+    font-size: 25px;
+
+}
+
+.tentang .col-4 h2 {
+    font-family: viga;
+
+}
+
+.tentang .col-2 p a {
+    text-decoration: none !important;
+    color: #2b2b2b !important;
+    font-size: 14px;
+}
+
+.tentang .col-2 h4 {
+    text-decoration: none !important;
+    color: #2b2b2b !important;
+    font-size: 24px !important;
+}
+
+.kontak img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px
+}
+
+.copyright {
+    margin-bottom: -16px;
+}
+
+.kategori a {
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+.kategori a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Untuk Desktop */
+@media (min-width: 992px) {
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 25px;
+    }
+
+    .nav-link:hover {
+        border-bottom: 3px solid rgba(112, 199, 202, 0.322);
+        margin-bottom: -3px;
+
+    }
+
+    .jumbotron {
+        margin-top: -100px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 64px;
+    }
+
+    /* info panel */
+    .info-panel img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .info-panel h4 {
+        padding-top: 30px;
+        font-size: 45px;
+    }
+
+    .info-panel p {
+        font-size: 24px;
+    }
+
+    .info-panel {
+        text-align: left;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
+        background-color: white;
+        height: 250px;
+        margin: 20px;
+        padding: 15px;
+    }
+
+    /* Tentang */
+    .tentang .col-4 h1 {
+        font-weight: lighter;
+        font-size: 25px;
+
+    }
+}

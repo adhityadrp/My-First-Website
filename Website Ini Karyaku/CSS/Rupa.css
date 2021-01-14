@@ -1,0 +1,152 @@
+/* Navbar */
+.navbar {
+    background-color: rgba(112, 199, 202, 0.753);
+}
+
+.navbar-brand {
+    font-family: viga;
+    font-size: 50px;
+}
+
+.nav-link {
+    margin-right: 25px;
+}
+
+.nav-item img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+
+}
+
+/* Judul */
+.judul {
+    margin-top: 150px;
+}
+
+.judul h1 {
+    font-size: 54px;
+    font-family: viga;
+}
+
+.judul span {
+    font-size: 40px;
+    font-family: initial;
+}
+
+/* Kategori */
+.kategori {
+    text-align: center;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    background-color: rgba(69, 91, 92, 0.678);
+    margin: 5px;
+}
+
+.kategori a {
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+.kategori a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Content */
+.jumbotron {
+    background-image: url(../Images/Painting.jpg);
+    background-size: cover;
+}
+
+.isi {
+    text-align: center;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    background-color: white;
+    margin: 20px;
+    height: 400px;
+    padding: 15px;
+}
+
+.isi h2 {
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.isi h5 {
+    font-family: audiowide;
+    font-size: 18px;
+}
+
+.isi p {
+    font-size: 10px;
+}
+
+.isi a {
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+.isi a:hover {
+    text-decoration: underline;
+}
+
+.konten img {
+    width: 200px;
+    height: 250px;
+}
+
+.konten .profile {
+    margin-top: 15px;
+    width: 85px;
+    height: 85px;
+}
+
+/* Page */
+.page {
+    justify-content: center;
+}
+
+.page .page2 {
+    text-align: center;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    background-color: rgba(69, 91, 92, 0.678);
+    margin: 5px;
+    margin-bottom: 100px;
+}
+
+.page2 a {
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+.page2 a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* Untuk Desktop */
+@media (min-width: 992px) {
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 25px;
+    }
+
+    .nav-link:hover {
+        border-bottom: 3px solid rgba(64, 91, 92, 0.322);
+        margin-bottom: -3px;
+
+    }
+}
